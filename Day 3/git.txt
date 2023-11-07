@@ -1,0 +1,28 @@
+git => repository => penyimpanan coding online
+
+fungsi
+1. backup
+2. transfer code
+3. collaboration
+4. tracking
+
+//collaboration
+si a ngerjain about us
+si b ngerjain landing page
+a dan b collab ke satu repository
+
+repository => online(github) & local
+
+command github
+commit => persetujuan perubahan (local)
+push => mengirimkan hasil commit menuju repo online(github) (sync)
+fetch => ngecek repo online dan dibandingkan dengan local => show perubahan yang ada di repo online
+pull => menarik data online supaya sama dengan local
+fork => clone repository milik orang lain supaya masuk ke repo kita
+pull request -> PR => meminta origin repo untuk menarik perubahan (commit)
+branch => membuat cabang repo dari repository
+
+//repo system company
+//production => cabang yang isinya sama dengan website yang sedang live (less bug & optimized)
+//development => cabang yang digunakan untuk pengembangan fitur
+//testing => 
