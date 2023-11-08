@@ -25,4 +25,4 @@ branch => membuat cabang repo dari repository
 //repo system company
 //production => cabang yang isinya sama dengan website yang sedang live (less bug & optimized)
 //development => cabang yang digunakan untuk pengembangan fitur
-//testing => 
+//testing
