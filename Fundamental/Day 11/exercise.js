@@ -3,7 +3,7 @@
 //appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the arracon
 
 const freqNumber = (array) => {
-  let freq = [];
+  let freq = 0;
   for (let i = 0; i < array.length; i++) {
     let count = 0;
     for (let j = 0; j < array.length; j++) {
@@ -17,8 +17,18 @@ const freqNumber = (array) => {
   else return freq;
 };
 
-const inputFreqNum = [2, 2, 1, 1, 1, 2, 2];
+//lecturer way
+const majority = (nums) => {
+  let max = 0;
+  new Set(nums).forEach((val) => {
+    if (nums.length / 2 < nums.filter((nums) => nums == val).length) max = val;
+  });
+  return max ? max : "no majority";
+};
+
+const inputFreqNum = [2, 2, 1, 1, 1, 2, 2, 1, 1];
 console.log(freqNumber(inputFreqNum));
+console.log(majority(inputFreqNum));
 
 //Create a function to convert roman numeral to integer.
 const convertFromRoman = (num) => {};

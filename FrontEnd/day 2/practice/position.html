@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position CSS</title>
+    <style>
+        .static {
+            position: static;
+            border: 3px solid red
+        }
+
+        .relative {
+            position: relative;
+            left: 30px;
+            /* kalo relative bisa pake top left right bottom */
+            border: 3px solid blueviolet;
+        }
+
+        .absolute {
+            position: absolute;
+            border: 3px solid greenyellow;
+            top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>position static</h1>
+    <p>Here is static example</p>
+    <div class="static">
+        this div element has static position
+    </div>
+
+    <h1>position relative</h1>
+    <p>Here is relative example</p>
+    <div class="relative">
+        this div element has relative position
+    </div>
+
+    <h1>position absolute</h1>
+    <p>Here is absolute example</p>
+    <div class="absolute">
+        <div class="absolute">this div element has absolute position</div>
+    </div>
+</body>
+
+</html>
