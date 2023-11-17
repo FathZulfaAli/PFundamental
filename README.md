@@ -1,4 +1,6 @@
 # PFundamental
 Full Stack Web Dev
-
-The Band Task <a href="./FrontEnd/day 2/exercise/index.html">THE BAND</a>
+<div>
+  <p>1. Grid Task => <a href="FrontEnd/day 2/exercise2.html">Here</a></p>
+  <p>2. The Band Task => <a href="./FrontEnd/day 2/exercise/index.html">Here</a></p>
+</div>
