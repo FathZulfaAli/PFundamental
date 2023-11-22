@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML + Javascript DOM</title>
+    <script>
+        function updateText() {
+            const element = document.getElementById("myElement") //panggil element dari id akan return element
+            console.log(element); //ceknya di browser => inspect => console
+            element.innerHTML = "<h2>Update Text</h2>"
+        }
+        function addItem() {
+            const newElement = document.createElement("li")
+            newElement.textContent = "new item"
+
+            const element = document.getElementById("myList")
+            element.appendChild(newElement)
+        }
+        function deleteText() {
+            const element = document.querySelector("#myElement")
+            const parentElement = element.parentNode
+
+            parentElement.removeChild(element)
+        }
+        function delItem() {
+            const element = document.querySelector("ul li")
+            const parentElement = element.parentNode
+
+            parentElement.removeChild(element)
+
+        }
+        function clickMe() {
+            const myButton = document.getElementById("myButton")
+            myButton.addEventListener("click", function () {
+                alert("Button clicked!")
+            })
+        }
+
+    </script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1 id="myElement">Original Text</h1>
+        <button onclick="updateText()">Update Text</button>
+        <button onclick="deleteText()">Delete Text</button>
+    </div>
+    <hr>
+    <div id="listpar">
+        <ul id="myList"></ul>
+        <button onclick="addItem()">Add Item</button>
+        <button onclick="delItem()">Del Item</button>
+    </div>
+    <hr>
+    <button id="myButton" onclick="clickMe()">Tekan Aku</button>
+
+</body>
+
+</html>
