@@ -23,8 +23,12 @@ function App() {
         </Heading>
         <Container maxW="2xl">
           <HStack mb="5">
-            <Checkbox borderColor="green.500" pr="5"></Checkbox>
-            <Text minW="lg" fontSize="lg">
+            <Checkbox
+              colorScheme="green"
+              borderColor="green.500"
+              pr="5"
+            ></Checkbox>
+            <Text w="full" fontSize="lg">
               Item 1
             </Text>
             <Button variant="outline" colorScheme="red" p="1">
@@ -32,8 +36,12 @@ function App() {
             </Button>
           </HStack>
           <HStack mb="5">
-            <Checkbox borderColor="green.500" pr="5"></Checkbox>
-            <Text minW="lg" fontSize="lg">
+            <Checkbox
+              colorScheme="green"
+              borderColor="green.500"
+              pr="5"
+            ></Checkbox>
+            <Text w="full" fontSize="lg">
               Item 2
             </Text>
             <Button variant="outline" colorScheme="red" p="1">
@@ -41,8 +49,12 @@ function App() {
             </Button>
           </HStack>
           <HStack mb="5">
-            <Checkbox borderColor="green.500" pr="5"></Checkbox>
-            <Text minW="lg" fontSize="lg">
+            <Checkbox
+              colorScheme="green"
+              borderColor="green.500"
+              pr="5"
+            ></Checkbox>
+            <Text w="full" fontSize="lg">
               Item 3
             </Text>
             <Button variant="outline" colorScheme="red" p="1">
@@ -51,14 +63,14 @@ function App() {
           </HStack>
         </Container>
         <Box borderTopWidth="2px" borderColor="gray"></Box>
-        <Container>
+        <Container maxW="2xl">
           <Heading textAlign="center" pb="10" fontSize="xl">
             Done : 0
           </Heading>
           <FormLabel>Add to Do</FormLabel>
           <Input type="string"></Input>
           <Button mt="10px" colorScheme="blue">
-            Add Task
+            Add Chores
           </Button>
         </Container>
       </Box>
