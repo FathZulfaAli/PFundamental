@@ -1,0 +1,24 @@
+{
+  "superheroes": [
+    {
+      "id": 1,
+      "name": "Iron Man",
+      "color": "red"
+    },
+    {
+      "id": 2,
+      "name": "Hulk",
+      "color": "green"
+    },
+    {
+      "id": 3,
+      "name": "Thor",
+      "color": "blue"
+    },
+    {
+      "name": "Loki",
+      "color": "matcha green",
+      "id": 7
+    }
+  ]
+}
