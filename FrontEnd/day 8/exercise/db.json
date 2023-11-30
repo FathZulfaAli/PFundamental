@@ -1,10 +1,22 @@
 {
-    "userCredential": [
-        {
-            "id": 1,
-            "name": "Iron Man",
-            "email": "yaskj@jaknc.com",
-            "password": "asd1243v?"
-        }
-    ]
+  "userCredential": [
+    {
+      "id": 1,
+      "name": "Iron Man",
+      "email": "yaskj@jaknc.com",
+      "password": "asd1243v?"
+    },
+    {
+      "name": "Loki",
+      "email": "dasd@adasd.mn",
+      "password": "123dasd6hdasd",
+      "id": 2
+    },
+    {
+      "name": "John Marcus",
+      "email": "haijo@yu.lo",
+      "password": "123asd4",
+      "id": 3
+    }
+  ]
 }
